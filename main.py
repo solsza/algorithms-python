@@ -1,8 +1,10 @@
-from HelloWord import great
+import MostFrequentChar
+
 
 def main():
-    result = great("Simon")
-    print(result)
+    for input in ['mississippi'] :
+        result = MostFrequentChar.most_frequent_char(input)
+        print(result)
 
 if __name__ == '__main__':
     main()
