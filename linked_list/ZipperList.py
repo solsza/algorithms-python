@@ -27,7 +27,7 @@ def zipper_lists(head_1, head_2):
     return head_1
 
 
-def zipper_lists(head_1, head_2):
+def zipper_lists_recursive(head_1, head_2):
     if head_1 is None and head_2 is None:
         return None
     if head_1 is None:
